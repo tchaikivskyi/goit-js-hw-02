@@ -8,7 +8,7 @@ function formatMessage(message, maxLength) {
   return `${availibleMessage}...`
 }
 
-console.groupCollapsed('TASK N2');
+console.group('TASK N2');
 console.log(formatMessage("Curabitur ligula sapien", 16)); // "Curabitur ligula..."
 console.log(formatMessage("Curabitur ligula sapien", 23)); // "Curabitur ligula sapien"
 console.log(formatMessage("Vestibulum facilisis purus nec", 20)); // "Vestibulum facilisis..."
